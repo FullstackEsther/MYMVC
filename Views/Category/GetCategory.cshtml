@@ -1,0 +1,24 @@
+@model MYMVC.Models.DTO.CategoryDto
+
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>Get Category</h1>
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th readonly>Id</th>
+            <th> CategoryName</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.CategoryName </td>
+        </tr>
+    </tbody>
+
+</table>

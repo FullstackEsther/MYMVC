@@ -1,0 +1,22 @@
+@model MYMVC.Models.ViewModel.LoginViewModel
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>Login</h1>
+    </div>
+
+</div>
+<div class="container py-5">
+<form method="post">
+    <div class="mb-3">
+        <label>UserName</label>
+        <input type="text"  id="userName" asp-for= "UserName" required>
+    </div>
+    <div class="mb-3">
+        <label >Password</label>
+        <input type="password"  id="password" asp-for= "Password" required>
+    </div>
+      <div class="mb=3">
+        <button class=" btn btn-dark" type="submit">Login</button>
+    </div>
+   </form>

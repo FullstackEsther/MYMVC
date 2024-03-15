@@ -1,0 +1,39 @@
+@model MYMVC.Models.ViewModel.GetMeetingViewModel
+
+<div class="bg-Secondary bg-Opacity-10 py-2">
+    <div class="container">
+        <h3>Are you sure you want to cancel this Meeting?</h3>
+    </div>
+    @if (ViewBag.Error != null)
+    {
+        <h2>@ViewBag.Error</h2>
+    }
+    @if (ViewBag.Cancel != null)
+    {
+        <h2>@ViewBag.Cancel</h2>
+    }
+    <form method="post" action="CancelMeeting">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th >Id</th>
+                    <th>DateAndTime</th>
+                    <th>MentorUserName</th>
+                    <th>MenteeUserName</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.Id</td>
+                    <td>@Model.DateAndTime</td>
+                    <td>@Model.MentorUserName</td>
+                    <td>@Model.MenteeUserName</td>
+                    <td><input type="hidden" name="Id" value="@Model.Id" />
+                        <button type="submit" class="btn btn-danger ms-2">Cancel</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+

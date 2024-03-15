@@ -1,0 +1,23 @@
+@model MYMVC.Models.DTO.RoleRequestModel
+
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>Create Role</h1>
+    </div>
+</div>
+
+<div class="container py-5">
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">RoleName</label>
+        <input type="text" class="form-control" id="roleName" asp-for= "RoleName" required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <input type="text" class="form-control" id="description" asp-for= "Description" required>
+    </div>
+      <div class="mb=3">
+        <button class=" btn btn-dark" type="submit">Create</button>
+    </div>
+   </form>

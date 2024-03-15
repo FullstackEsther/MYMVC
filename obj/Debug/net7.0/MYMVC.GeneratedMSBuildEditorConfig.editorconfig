@@ -1,0 +1,149 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MYMVC
+build_property.RootNamespace = MYMVC
+build_property.ProjectDir = c:\Users\Admin\OneDrive\Desktop\MYMVC\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = c:\Users\Admin\OneDrive\Desktop\MYMVC
+build_property._RazorSourceGeneratorDebug = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Category/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Category/GetCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR2V0Q2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Chat/GetChat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxHZXRDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Meeting/CancelMeeting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xDYW5jZWxNZWV0aW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Meeting/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Meeting/GetAllScheduledMeetings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xHZXRBbGxTY2hlZHVsZWRNZWV0aW5ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Meeting/RescheduleMeeting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVldGluZ1xSZXNjaGVkdWxlTWVldGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudGVlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentee/EditMenteeProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudGVlXEVkaXRNZW50ZWVQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentee/GetAllMentees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudGVlXEdldEFsbE1lbnRlZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentee/GetMentee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudGVlXEdldE1lbnRlZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentee/ViewMentorDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudGVlXFZpZXdNZW50b3JEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXEVkaXRQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/GetAllMentors.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXEdldEFsbE1lbnRvcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/GetMentor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXEdldE1lbnRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/ViewAllMentees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXFZpZXdBbGxNZW50ZWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Mentor/ViewMentorsInCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudG9yXFZpZXdNZW50b3JzSW5DYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Message/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Message/GetAllMessages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxHZXRBbGxNZXNzYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/User/MenteeDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNZW50ZWVEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/User/MentorDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNZW50b3JEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/User/SuperAdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTdXBlckFkbWluRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Admin/OneDrive/Desktop/MYMVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-js058rzdl1

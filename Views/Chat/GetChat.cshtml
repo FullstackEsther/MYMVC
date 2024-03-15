@@ -1,0 +1,40 @@
+@model MYMVC.Models.ViewModel.CreateChatViewModel
+@using System.Security.Claims
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    @if(Model != null)
+    {
+        <div class="chat-container">
+        <div class="chat-box">
+            
+        </div>
+        <div class="input-container">
+            <form method="post" asp-action="Create">
+                <input type="hidden" asp-for="ReceiverId" value = "@Model.ReceiverId" />
+                <input type="hidden" asp-for="SenderId" value="@User.FindFirst(ClaimTypes.NameIdentifier)?.Value" />
+                <input type="text" asp-for="ChatContent" placeholder="Type your message...">
+                <a type="submit" 
+                asp-action="Create" asp-controller="Chat">Send</a>
+            </form>
+            </div>
+    </div>
+    }
+    else
+    {
+            <form asp-action="Create">
+                 <input type="text" asp-for="ChatContent" placeholder="Type your message...">
+                <input type="submit" value="Send">
+            </form>
+    }
+    
+        
+</body>
+</html>

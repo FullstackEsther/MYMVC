@@ -1,0 +1,45 @@
+@model IEnumerable<MYMVC.Models.ViewModel.GetMeetingViewModel>
+
+
+<div class="bg-Secondary bg-Opacity-10 py-2">
+    <div class="container">
+        <h1>Scheduled  Meetings</h1>
+    </div>
+</div class="container mg-3">
+    @if(Model != null && Model.Any())
+{
+    <table class="table">
+    <thead>
+        <tr>
+            <th readonly>Id</th>
+            <th>DateAndTime</th>
+            <th>MentorUserName</th>
+            <th> MenteeUserName</th>
+            <th> </th>
+            <th> </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var meeting in Model)
+        {
+            <tr>
+                <td>@meeting.Id</td>
+                <td>@meeting.DateAndTime </td>
+                <td>@meeting.MentorUserName </td>
+                <td>@meeting.MenteeUserName </td>
+                <td>
+                    <a asp-area="" asp-controller="Meeting" asp-action="RescheduleMeeting" asp-route-id="@meeting.Id">Reschedule</a>
+                </td>
+                <td>
+                    <a asp-area="" asp-controller="Meeting" asp-action="CancelMeeting" asp-route-id="@meeting.Id">CancelMeeting</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+}
+else
+{
+    <p> No Meetings Found!</p>
+}
+</div >

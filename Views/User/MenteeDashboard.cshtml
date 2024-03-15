@@ -1,0 +1,27 @@
+@using System.Security.Claims
+@model MYMVC.Models.DTO.UserDto
+@{
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Profile</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body class="ait">
+        <h1 style="text-align: center;">
+            Welcome @User.FindFirst(ClaimTypes.Email).Value
+        </h1>
+    </div>
+    <div style="padding: 0px 50px">
+<div class="profilepage">
+        
+    </div>
+
+    
+    </div>
+</div>
+</body>

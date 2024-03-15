@@ -1,0 +1,37 @@
+@model IEnumerable<MYMVC.Models.ViewModel.GetMessageViewmodel>
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>GetAllMessages</h1>
+    </div>
+</div>
+
+<div class="container mg-3">
+    @if(Model != null && Model.Any())
+    {
+        <table class="table">
+        <thead>
+            <tr>
+                <td>SenderUserName</td>
+                <td>ChatContent</td>
+                <td>TimeSent</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var message in Model)
+            {
+                <tr> 
+                    <td>@message.SenderUserName</td>
+                    <td>@message.ChatContent</td>
+                    <td>@message.TimeSent</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    }
+    else
+    {
+        <p> No Message Found!</p>
+    }
+    
+ </div>

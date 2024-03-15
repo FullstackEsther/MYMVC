@@ -1,0 +1,39 @@
+@model IEnumerable<MYMVC.Models.DTO.CategoryDto>
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>GetAll Category</h1>
+    </div>
+</div>
+
+<div class="container mg-3">
+    @if(Model != null && Model.Any())
+    {
+        <table class="table">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>CategoryName</td>
+                <td> </td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var category in Model)
+            {
+                <tr> 
+                    <td>@category.Id</td>
+                    <td>@category.CategoryName</td>
+                    @* <td>
+                        <a asp-area="" asp-controller="AdminBlogPost" asp-action="Edit" asp-route-id="@blogPost.Id">Edit</a>
+                    </td> *@
+                </tr>
+            }
+        </tbody>
+    </table>
+    }
+    else
+    {
+        <p> No Category Found!</p>
+    }
+    
+ </div>

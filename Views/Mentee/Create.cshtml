@@ -1,0 +1,52 @@
+@model MYMVC.Models.ViewModel.CreateMenteeViewModel
+
+<div class = "bg-Secondary bg-Opacity-10 py-2">
+    <div class = "container">
+        <h1>Create Mentee</h1>
+    </div>
+</div>
+<div class="container py-5">
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" asp-for= "Email"required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">UserName</label>
+        <input type="text" class="form-control" id="userName" asp-for= "UserName"required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input  type="password" class="form-control" id="password" asp-for="Password"required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">FirstName</label>
+        <input type="text" class="form-control" id="firstName" asp-for= "FirstName"required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">LastName</label>
+        <input type="text" class="form-control" id="lastName" asp-for= "LastName"required>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input type="text" class="form-control" id="address" asp-for= "Address">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Age</label>
+        <input type="number" class="form-control" id="age" asp-for= "Age">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">PhoneNumber</label>
+        <input type="phone" class="form-control" id="phoneNumber" asp-for= "PhoneNumber"required>
+    </div>
+     <div class="mb-3">
+        <label class=" form-label">Categories</label>
+        <select class="form-select"asp-items="@Model.Category"asp-for="SelectedCategory" required >
+        </select>
+        </div>
+
+    <div class="mb=3">
+        <button class=" btn btn-dark" type="submit">Save</button>
+    </div>
+</form>
+

@@ -1,0 +1,40 @@
+@model IEnumerable<MYMVC.Models.ViewModel.GetMenteeViewModel>
+<div class="bg-Secondary bg-Opacity-10 py-2">
+    <div class="container">
+        <h1>All Assigned Mentees</h1>
+    </div>
+</div class="container mg-3">
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th> Email</th>
+                <th>PhoneNumber </th>
+                <th> UserName</th>
+                <th> FirstName</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mentee in Model)
+            {
+                <tr>
+                    <td>@mentee.Email </td>
+                    <td>@mentee.PhoneNumber</td>
+                    <td>@mentee.UserName </td>
+                    <td>@mentee.FirstName</td>
+                    <td>
+                        <a asp-action="GetChat" asp-controller="Chat" asp-route-receiverId="@mentee.Id">Chat</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p> No Mentees Found!</p>
+}
+</div>

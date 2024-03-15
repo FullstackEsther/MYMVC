@@ -1,0 +1,48 @@
+@model MYMVC.Models.ViewModel.EditProfileViewModel
+
+<div class="bg-Secondary bg-Opacity-10 py-2">
+    <div class="container">
+        <h1>Edit Profile</h1>
+    </div>
+</div>
+<div class="container py-5">
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" asp-for="Email" readonly>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">UserName</label>
+            <input type="text" class="form-control" id="userName" asp-for="UserName">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">FirstName</label>
+            <input type="text" class="form-control" id="firstName" asp-for="FirstName">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">LastName</label>
+            <input type="text" class="form-control" id="lastName" asp-for="LastName">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Address</label>
+            <input type="text" class="form-control" id="address" asp-for="Address">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">YearsOfExperience</label>
+            <input type="number" class="form-control" id="yearsOfExperience" asp-for="YearsOfExperience">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Age</label>
+            <input type="number" class="form-control" id="age" asp-for="Age">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">PhoneNumber</label>
+            <input type="phone" class="form-control" id="phoneNumber" asp-for="PhoneNumber">
+        </div>
+
+        <div class="mb=3">
+            <button class=" btn btn-dark" type="submit">Update</button>
+            <button type="submit" class="btn btn-danger ms-2" asp-area="" asp-controller="Mentor"
+                asp-action="Delete">Delete </button>
+        </div>
+    </form>

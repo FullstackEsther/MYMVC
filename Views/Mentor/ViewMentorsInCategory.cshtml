@@ -1,0 +1,46 @@
+@model IEnumerable<MYMVC.Models.ViewModel.GetMentorViewModel>
+
+<div class="bg-Secondary bg-Opacity-10 py-2">
+    <div class="container">
+        <h1>Mentors </h1>
+    </div>
+</div class="container mg-3">
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th> CategoryName</th>
+                <th> UserName</th>
+                <th> IsAvailable</th>
+                <th> Email</th>
+                <th> FirstName</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mentor in Model)
+            {
+                <tr>
+                    <td>@mentor.Id</td>
+                    <td>@mentor.CategoryName </td>
+                    <td>@mentor.UserName </td>
+                    <td>@mentor.IsAvailable </td>
+                    <td>@mentor.Email </td>
+                    <td>@mentor.FirstName</td>
+                    <td>
+                        <div class="mb=3">
+                            <a class=" btn btn-dark" asp-action="UpdateMentorId" asp-controller="Mentee" asp-route-mentorId="@mentor.Id">Select</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p> No Mentors Found!</p>
+}
+</div>
